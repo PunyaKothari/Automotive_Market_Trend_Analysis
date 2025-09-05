@@ -16,7 +16,7 @@ GROUP BY Name
 ORDER BY avg_mileage DESC
 LIMIT 3;
 
---- 3. Identify the car models for which the difference between the maxi and min SP is greater than $10,000. ---
+--- 3. Identify the car models for which the difference between the max and min SP is greater than $10,000. ---
 SELECT Name
 FROM car_info
 GROUP BY Name
